@@ -38,10 +38,10 @@ $routes = array(
  * DB config
  */
 $dbConfig = array(
-    'host'      =>  'localhost',
-    'port'      =>  '3306',
-    'user'      =>  'root',
-    'password'  =>  'root',
+    'host'      =>  HOST,
+    'port'      =>  PORT,
+    'user'      =>  USER,
+    'password'  =>  PASSWORD,
     'db'        =>  'rent'
 );
 
