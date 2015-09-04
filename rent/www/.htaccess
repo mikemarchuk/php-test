@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^GET\ .*/index\.php\ HTTP
+RewriteRule ^(.*)index\.php$ /$1 [R=301,L]
+RewriteCond %{SCRIPT_FILENAME} !-d  
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule ^(.*)$ ./index.php?route=$1

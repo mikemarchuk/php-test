@@ -1,0 +1,10 @@
+.placeholder {
+    color: grey;
+}
+
+select option:first-child {
+    color: grey; display: none;
+}
+select option {
+    color: #555;
+}
